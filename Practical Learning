@@ -1,0 +1,117 @@
+🐍 PY4E Practical Learning Guide (Python for Data Engineering)
+You have selected the foundational "Python for Everybody (PY4E)" course. This is the most crucial first step because Python is the primary scripting language for building modern data pipelines.
+
+This guide outlines the critical modules to focus on and how to apply your Whiteboard Method to ensure practical mastery.
+
+I. Why PY4E is Essential for Data Engineers
+PY4E is excellent because it focuses on the practical application of Python, not just theory.
+
+PY4E Concept
+
+Data Engineering Application
+
+Functions & Loops
+
+Writing modular scripts and automating repetitive ETL tasks.
+
+Dictionaries & Lists
+
+Parsing and manipulating semi-structured data (like JSON or API responses).
+
+File I/O (Input/Output)
+
+Reading and writing data to local storage or cloud storage (e.g., S3, GCS).
+
+Regular Expressions
+
+Cleaning, transforming, and extracting specific patterns from messy text data.
+
+Database Access (SQLite)
+
+Understanding basic relational concepts before moving to PostgreSQL or cloud warehouses.
+
+II. Applying the Whiteboard Method to PY4E Modules
+For each of these core modules, commit to the "Watch → Whiteboard → Code" cycle.
+
+Module 1: Data Structures (Lists, Dictionaries, Tuples)
+Goal: Understand how to structure and manipulate data in memory efficiently.
+
+Step
+
+Action
+
+Whiteboard Focus
+
+1. Watch
+
+Follow the PY4E lectures on lists, dictionaries, and tuple operations.
+
+
+
+2. Whiteboard
+
+Draw the Structure. Sketch out a dictionary representing a customer record (e.g., {'id': 101, 'orders': [5, 12, 8]}). Draw the memory location and show how an item is added or deleted.
+
+
+
+3. Code
+
+Write a function that takes a list of dictionary objects and calculates the sum of a specific key (e.g., calculating total sales from a list of transactions).
+
+
+
+Module 2: Working with Files and Text
+Goal: Master reading, parsing, and cleaning external data.
+
+Step
+
+Action
+
+Whiteboard Focus
+
+1. Watch
+
+Follow lectures on open(), reading line-by-line, and the with open(...) context manager.
+
+
+
+2. Whiteboard
+
+Map the File Flow. Draw a diagram showing a CSV file on one side and your Python script on the other. Draw the arrow of data transfer, showing the .readline() method and how you would use .split(',') to turn the line into a list of values.
+
+
+
+3. Code
+
+Write a script that reads a text file, counts the frequency of each word, and prints the top 10 most frequent words (a simple Word Count task).
+
+
+
+Module 3: Using Databases (SQLite)
+Goal: Understand the fundamental connection between Python and a database.
+
+Step
+
+Action
+
+Whiteboard Focus
+
+1. Watch
+
+Follow lectures on using the built-in Python sqlite3 library.
+
+
+
+2. Whiteboard
+
+Draw the Connection. Draw three boxes: Python Script, SQLite Library, and Database File. Draw the arrows showing the connect() command, the cursor.execute(SQL) command, and the commit() command.
+
+
+
+3. Code
+
+Write a script that creates a simple Users table, inserts 5 records, and then runs a SQL query to select only users over a certain age.
+
+
+
+By using this structured approach, you will transform theoretical knowledge from the videos into the practical, highly marketable skills needed for Data Engineering.
